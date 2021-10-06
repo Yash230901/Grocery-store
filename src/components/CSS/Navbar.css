@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,200&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+body{
+    overflow-x: hidden;
+}
+.first{
+    background-color:rgb(116, 179, 22);
+    display: flex;
+    color: white;
+    justify-content: space-between;
+}
+.phone{
+    display: flex;
+    margin: 10px 200px;
+}
+.phone .fa-phone {
+    padding: 4px 10px;
+}
+.phone .fa-envelope{
+        padding: 4px 10px;
+}
+.social{
+    display: flex;
+    margin: 10px 150px;
+}
+.social i{
+    padding: 4px 20px;
+}
+
+/* ----second section---- */
+.second{
+    font-family: 'Poppins', sans-serif;
+    width: 70%;
+    margin: 30px auto;
+    display: flex;
+}
+.second .logo-section{
+    color: rgb(116, 179, 22);
+    display: flex;
+    margin: 0px 30px;
+}
+.second .logo-section img{
+    width: 80px;
+}
+.second .logo-section .text{
+    padding: 10px;
+}
+.second nav ul{
+    display: flex;
+}
+.second nav ul li{
+    list-style: none;
+    padding: 15px;
+}
+.second nav ul li a{
+    display: inline-block;
+    color: black;
+    text-decoration: none;
+}
+.second nav ul li a:hover{
+    color: rgb(116, 179, 22);
+}
+nav{
+    margin: 14px;
+}
+nav ul i{
+    padding: 17px 10px;
+}
+.search-section{
+    width: 70%;
+    margin: 0px auto;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.search-section .btn1{
+    background-color: rgb(116, 179, 22);
+    color: #fff;
+    margin: 15px;
+  padding: 12px 29px;
+    border: 1px solid rgb(116, 179, 22);
+}
+.search-section .input{
+    padding: 10px 16px;
+    width: 70%;
+}
+.search-section .btn2{
+    background-color: rgb(116, 179, 22);
+    color: #fff;
+    padding: 11px 30px;
+    border: 1px solid rgb(116, 179, 22);
+}

@@ -1,0 +1,11 @@
+@media(max-width:1358px){
+    .footer{
+     height: 69vh;
+    }
+    .footer-row{
+        flex-direction: column;
+    }
+    .footer-col{
+margin: 17px 25px;
+    }
+}
